@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <button onClick={() => console.log('cliquei')}>Clique aqui</button>
+      <button style={{ backgroundColor: 'red' }} onClick={() => console.log('cliquei')}>Clique aqui</button>
     </div>
   );
 }
